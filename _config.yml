@@ -12,9 +12,9 @@ title                    : "Jiahui Zhai / Academic Profile"
 title_separator          : "-"
 name                     : &name "Jiahui Zhai"
 description              : &description "Physics and AI researcher focusing on quantum machine learning and computational modeling"
-url                      : https://jiahui-zhai.github.io # Update to reflect your site's URL
+url                      : https://huskyzjh.github.io/ # Update to reflect your site's URL
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "jiahui-zhai/jiahui-zhai.github.io"
+repository               : "HUSKYzjh/huskyzjh.github.io/"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
