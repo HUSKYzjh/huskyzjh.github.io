@@ -1,18 +1,9 @@
 # Authors
 
-Name Name:
-  name        : "Name Name"
-  uri         : "http://name.com"
-  email       : "name@name.com"
-  bio         : "This is the first name."
-  avatar      : "bio-photo-2.jpg"
-  twitter     : "name"
-  google_plus : "Name"
-
-Name2 Name2:
-  name        : "Name2 Name2"
-  email       : "name2@name2.com"
-  bio         : "I ordered what?"
-  avatar      : "bio-photo.jpg"
-  twitter     : "name2"
-  google_plus : "Name"
+Jiahui Zhai:
+  name        : "Jiahui Zhai"
+  uri         : "https://github.com/HUSKYzjh"
+  email       : "husky@stu.xmu.edu.cn"
+  bio         : "A driven researcher at the intersection of quantum mechanics, machine learning, and statistical physics. Committed to unearthing deeper computational frameworks by merging physical principles with AI."
+  avatar      : "husky.jpg"  # Ensure this image is added to the assets/images directory if using this path
+  # twitter     : "HUSKYzjh"
