@@ -1,15 +1,13 @@
 ---
-
-layout: archive  
-title: "CV"  
-permalink: /cv/  
-author_profile: true  
-redirect_from:  
-  - /resume  
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
 
 {% include base_path %}
-
----
 
 ### Education
 * **Bachelor of Science (B.S.) in Physics**, Xiamen University, 2021 – 2025 (Expected)  
@@ -53,26 +51,6 @@ redirect_from:
 * **Data Analysis**: Scikit-Learn, Pandas, NumPy, Matplotlib, Origin
 * **Computational Modeling**: LAMMPS, VESTA, VMD, OVITO
 * **Machine Learning & Optimization**: Reinforcement Learning, QAOA, Quantum Computing  
-
----
-
-### Publications
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-
----
-
-### Talks
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-
----
-
-### Teaching
-* **Lab Instructor, Physics Lab**, Xiamen University, 2022  
-  - Guided students through mechanics and thermodynamics experiments with a focus on safety and precision.
 
 ---
 
