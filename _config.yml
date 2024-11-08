@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Jiahui Zhai / Academic Profile"
+title                    : "Jiahui Zhai"
 title_separator          : "-"
 name                     : &name "Jiahui Zhai"
 description              : &description "Physics and AI researcher focusing on quantum machine learning and computational modeling"
-url                      : https://huskyzjh.github.io/ # Update to reflect your site's URL
+URL                      : "https://huskyzjh.github.io" # Update to reflect your site's URL
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HUSKYzjh/huskyzjh.github.io/"
 
@@ -212,17 +212,8 @@ kramdown:
 
 # These settings control the types of collections used by the template
 collections:
-  teaching:
-    output: false
-    permalink: /:collection/:path/
-  publications:
-    output: false
-    permalink: /:collection/:path/
   portfolio:
     output: true
-    permalink: /:collection/:path/
-  talks:
-    output: false
     permalink: /:collection/:path/
 
 
@@ -294,8 +285,11 @@ permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+    
 # Plugins
 plugins:
   - jekyll-feed
