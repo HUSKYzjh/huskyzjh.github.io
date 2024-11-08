@@ -217,9 +217,7 @@ collections:
     permalink: /:collection/:path/
   cv:
     output: true
-    permalink: /cv/:path/
-
-
+    permalink: /cv/
     
 # These settings control how pages and collections are included in the site
 defaults:
